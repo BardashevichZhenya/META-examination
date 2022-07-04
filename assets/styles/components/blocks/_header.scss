@@ -1,0 +1,55 @@
+.header{
+    background-color: #000000;
+
+    &--container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__logo{
+        margin-right: 40px;
+        padding-top: 20px;
+    }
+
+    &__nav-logo{
+        display: flex;
+    
+    }
+
+    &__nav{
+
+        display: flex;
+        padding: 30px 0px;
+
+        &-link{
+            color: #FFFFFF;
+            padding: 0 20px;
+            font-family: $fontDM;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 16px;
+            text-decoration: none;
+            transition: backgrond-color .3s ease-in-out;
+        }
+
+        &-link:hover{
+            background-color: #8DFD1B;
+            color: #000000;
+        }
+
+        &-link:active{
+            background-color:#42006A;
+            color: #FFFFFF;
+        }
+    }
+
+    &__contacts{
+        padding-top: 20px;
+
+        &-link{
+            text-decoration: none;
+            margin-left: 12px;
+        }
+    }
+}
+

@@ -1,0 +1,153 @@
+.roadmap{
+    background-color: #000;
+
+    &__background-image{
+        position: relative;
+        z-index: 1;
+    }
+
+    &__rings-container{
+        position: absolute;
+        z-index: 2;
+        padding-top: 130px;
+    }
+
+    &__background-rings{
+        
+
+        &-active{
+            margin-bottom: 500px;
+        }
+    }
+
+    &--container{
+        position: relative;
+        padding-top: 120px;
+        z-index: 3;
+    }
+
+    &__title{
+        color: #fff;
+        font-family: $fontAudiowide;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 45px;
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 100px;
+    }
+
+    &__list{
+        background-color: #222222;
+        border: 1px solid #8DFD1B;
+        width: 540px;
+        margin: 0 auto;
+    }
+
+    &__title-section{
+        border-bottom: 1px solid #8DFD1B;
+        display: flex;
+        padding: 13px;
+
+        &-number{
+            padding: 8px 16px;
+            color: #8DFD1B;
+            border: 1px solid #8DFD1B;
+            font-family: $fontDM;
+            font-weight: 400;
+            font-size: 28px;
+            line-height: 28px;
+            margin-right: 13px;
+            transition: background-color .2s ease-in-out;
+        }
+
+        &-number:hover{
+            cursor: pointer;
+            background-color: #8DFD1B;
+            color: #000;
+        }
+
+        &-main-part--green{
+            color: #8DFD1B;
+            font-family: $fontDM;
+            font-weight: 400;
+            font-size: 8px;
+            line-height: 12px;
+            text-transform: uppercase;
+            padding-top: 5px;
+        }
+
+        &-main-part{
+            font-family: $fontDM;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 28px;
+            color: #fff;
+            text-transform: uppercase;
+        }
+    }
+
+    &__descr-section{
+        display: flex;
+        padding: 30px 13px;
+        justify-content: space-between;
+
+        &-main{
+            width: 300px;
+        }
+
+        &-part{
+            font-family: $fontInter;
+            font-weight: 400;
+            font-size: 11px;
+            color: #fff;
+            padding-left: 20px;
+            margin-bottom: 10px;
+
+            &-2{
+                margin-top: 40px;
+                padding-right: 0;
+                margin-bottom: 15px;
+            }
+
+            &-3{
+                font-weight: 400;
+                font-size: 12px;
+                margin-bottom: 30px;
+            }
+
+            &-4{
+                padding-left: 0px;
+                font-weight: 400;
+                font-size: 11px;
+                line-height: 26px;
+            }
+        }
+
+        &-img{
+            width: 130px;
+            height: 130px;
+        }
+    }
+
+    &__separator{
+        height: 40px;
+        width: 2px;
+        background-color: #8DFD1B;
+        margin: 0 auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+
+    &__our-partners{
+        color: #8DFD1B;
+        text-align: center;
+        font-weight: 400;
+        font-family: $fontDM;
+        font-size: 11px;
+        line-height: 12px;
+        text-transform: uppercase;
+        margin-top: 240px;
+    }
+}
+

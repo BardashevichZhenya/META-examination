@@ -1,0 +1,60 @@
+.questions{
+    background-color: #000;
+
+    &--container{
+        padding: 200px 15px 100px 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__title{
+        color: #fff;
+        font-weight: 400;
+        font-family: $fontAudiowide;
+        font-size: 38px;
+        line-height: 45px;
+        text-transform: uppercase;
+        margin-bottom: 50px;
+    }
+
+    &__asked{
+        color: #A8A8A8;
+    }
+
+    &__list{
+        background-color: #222222;
+        width: 580px;
+        padding: 24px 31px;
+    }
+
+    &__section{
+        display: flex;
+
+        &-title{
+            color: #fff;
+            font-family: $fontDM;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 25px;
+        }
+
+        &-descr{
+            color: #fff;
+            font-family: $fontInter;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 19px;
+            margin-bottom: 30px;
+
+            &--active{
+                margin-bottom: 0;
+            }
+        }
+
+        &-square{
+            width: 15px;
+            height: 15px;
+        }
+    }
+}

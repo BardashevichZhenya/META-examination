@@ -1,0 +1,37 @@
+.artists-banner{
+background-color: #000;
+
+    &__container{
+        display: flex;
+        padding: 110px 0 130px 0;
+    }
+
+    &__title{
+        color: #fff;
+        text-transform: uppercase;
+        font-family: $fontAudiowide;
+        font-weight: 400;
+        font-size: 79px;
+        line-height: 88px;
+        margin-right: 260px;
+        margin-left: 450px;
+    }
+
+    &__title--left{
+        color: #fff;
+        text-transform: uppercase;
+        font-family: $fontAudiowide;
+        font-weight: 400;
+        font-size: 79px;
+        line-height: 88px;
+    }
+
+    &__title--right{
+        color: #fff;
+        text-transform: uppercase;
+        font-family: $fontAudiowide;
+        font-weight: 400;
+        font-size: 79px;
+        line-height: 88px;
+    }
+}

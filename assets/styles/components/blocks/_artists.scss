@@ -1,0 +1,34 @@
+.artists{
+    background-color: #000;
+
+    &--container{
+    
+    }   
+
+    &__top{
+        display: flex;
+        margin-bottom: 80px;
+    }
+
+    &__bottom{
+        display: flex;
+    }
+
+    &__persona{
+        margin-right: 60px;
+
+        &-img{
+            margin-bottom: 20px;
+        }
+
+        &-name{
+            color: #FFFFFF;
+            font-family: $fontDM;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+        }
+    }
+
+}

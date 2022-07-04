@@ -1,0 +1,57 @@
+.rekord{
+    background-color: #000;
+
+    &--container{
+        display: flex;
+    }
+
+    &__list{
+        padding-top: 130px;
+    }
+
+    &__title{
+        color: #FFFFFF;
+        font-family: $fontAudiowide;
+        font-weight: 400;
+        font-size: 51px;
+        line-height: 61px;
+        margin-bottom: 40px;
+    }
+
+    &__desc{
+        color: #FFFFFF;
+        background-color: unset;
+        font-family: $fontInter;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        padding-right: 70px;
+        margin-bottom: 110px;
+    }
+
+    &__btn{
+        width: 205px;
+        height: 60px;
+        background-color: #8DFD1B;
+        font-family: $fontDM;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 16px;
+        transition: background-color .2s ease-in-out, border .2s ease-in-out;
+    }
+
+    &__btn:hover{
+        cursor: pointer;
+        background-color: #42006A;
+        color: #FFFFFF;
+    }
+
+    &__btn:active{
+        background-color: #6f02b3;
+        color: #FFFFFF;
+    }
+
+    &__background-img{
+        width: 740px;
+    }
+}

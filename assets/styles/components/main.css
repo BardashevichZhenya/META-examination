@@ -1,0 +1,854 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=DM+Mono:wght@300;400;500&family=Inter:wght@400;500;700;900&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+ol, ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.header {
+  background-color: #000000;
+}
+
+.header--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header__logo {
+  margin-right: 40px;
+  padding-top: 20px;
+}
+
+.header__nav-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 0px;
+}
+
+.header__nav-link {
+  color: #FFFFFF;
+  padding: 0 20px;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-decoration: none;
+  -webkit-transition: backgrond-color .3s ease-in-out;
+  transition: backgrond-color .3s ease-in-out;
+}
+
+.header__nav-link:hover {
+  background-color: #8DFD1B;
+  color: #000000;
+}
+
+.header__nav-link:active {
+  background-color: #42006A;
+  color: #FFFFFF;
+}
+
+.header__contacts {
+  padding-top: 20px;
+}
+
+.header__contacts-link {
+  text-decoration: none;
+  margin-left: 12px;
+}
+
+.rekord {
+  background-color: #000;
+}
+
+.rekord--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.rekord__list {
+  padding-top: 130px;
+}
+
+.rekord__title {
+  color: #FFFFFF;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+  margin-bottom: 40px;
+}
+
+.rekord__desc {
+  color: #FFFFFF;
+  background-color: unset;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-right: 70px;
+  margin-bottom: 110px;
+}
+
+.rekord__btn {
+  width: 205px;
+  height: 60px;
+  background-color: #8DFD1B;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  -webkit-transition: background-color .2s ease-in-out, border .2s ease-in-out;
+  transition: background-color .2s ease-in-out, border .2s ease-in-out;
+}
+
+.rekord__btn:hover {
+  cursor: pointer;
+  background-color: #42006A;
+  color: #FFFFFF;
+}
+
+.rekord__btn:active {
+  background-color: #6f02b3;
+  color: #FFFFFF;
+}
+
+.rekord__background-img {
+  width: 740px;
+}
+
+.nft {
+  background-color: #000;
+}
+
+.nft--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 125px;
+}
+
+.nft__list {
+  margin-right: 160px;
+}
+
+.nft__title-part {
+  color: #A8A8A8;
+  text-transform: uppercase;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+}
+
+.nft__title-part--grey {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  margin-bottom: 40px;
+}
+
+.nft__descr {
+  padding-right: 100px;
+}
+
+.nft__descr-green {
+  color: #8DFD1B;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  padding-left: 20px;
+  border-left: 2px solid #8DFD1B;
+  margin-bottom: 30px;
+}
+
+.nft__descr-white {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 18px;
+}
+
+.nft__descr-btn {
+  margin-top: 18px;
+  width: 250px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  border: 1px solid #8DFD1B;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  -webkit-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+
+.nft__descr-btn:hover {
+  background-color: #8DFD1B;
+  color: #000;
+  border: none;
+}
+
+.nft__descr-btn:active {
+  background-color: #42006A;
+  color: #fff;
+  border: none;
+}
+
+.artists-banner {
+  background-color: #000;
+}
+
+.artists-banner__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 110px 0 130px 0;
+}
+
+.artists-banner__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 88px;
+  margin-right: 260px;
+  margin-left: 450px;
+}
+
+.artists-banner__title--left {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 88px;
+}
+
+.artists-banner__title--right {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 88px;
+}
+
+.artists {
+  background-color: #000;
+}
+
+.artists__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.artists__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.artists__persona {
+  margin-right: 60px;
+}
+
+.artists__persona-img {
+  margin-bottom: 20px;
+}
+
+.artists__persona-name {
+  color: #FFFFFF;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.story {
+  background-color: #000;
+}
+
+.story--container {
+  padding: 260px 0 120px 0;
+}
+
+.story__title {
+  color: #fff;
+  text-align: center;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 37px;
+  line-height: 45px;
+  margin-bottom: 60px;
+}
+
+.story__title-the {
+  color: #A8A8A8;
+}
+
+.story__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.story__menu-list {
+  color: #fff;
+  width: 280px;
+  padding: 25px 0 25px 25px;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.story__menu-list--active {
+  color: #8DFD1B;
+  background-color: #222222;
+}
+
+.story__menu-list--nope {
+  -webkit-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+
+.story__menu-list--nope:hover {
+  cursor: pointer;
+  background-color: #8DFD1B;
+  color: #000;
+}
+
+.story__menu-list--nope:active {
+  background-color: #222222;
+  color: #8DFD1B;
+}
+
+.story__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 60px 90px 70px 60px;
+  background-color: #222222;
+}
+
+.story__banner-img {
+  margin-right: 40px;
+  height: 70%;
+}
+
+.story__banner-title {
+  color: #8DFD1B;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 32px;
+  padding-left: 20px;
+  border-left: 2px solid #8DFD1B;
+  margin-bottom: 30px;
+}
+
+.story__banner-desc {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 20px;
+  padding-right: 50px;
+}
+
+.roadmap {
+  background-color: #000;
+}
+
+.roadmap__background-image {
+  position: relative;
+  z-index: 1;
+}
+
+.roadmap__rings-container {
+  position: absolute;
+  z-index: 2;
+  padding-top: 130px;
+}
+
+.roadmap__background-rings-active {
+  margin-bottom: 500px;
+}
+
+.roadmap--container {
+  position: relative;
+  padding-top: 120px;
+  z-index: 3;
+}
+
+.roadmap__title {
+  color: #fff;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.roadmap__list {
+  background-color: #222222;
+  border: 1px solid #8DFD1B;
+  width: 540px;
+  margin: 0 auto;
+}
+
+.roadmap__title-section {
+  border-bottom: 1px solid #8DFD1B;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 13px;
+}
+
+.roadmap__title-section-number {
+  padding: 8px 16px;
+  color: #8DFD1B;
+  border: 1px solid #8DFD1B;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 28px;
+  margin-right: 13px;
+  -webkit-transition: background-color .2s ease-in-out;
+  transition: background-color .2s ease-in-out;
+}
+
+.roadmap__title-section-number:hover {
+  cursor: pointer;
+  background-color: #8DFD1B;
+  color: #000;
+}
+
+.roadmap__title-section-main-part--green {
+  color: #8DFD1B;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 12px;
+  text-transform: uppercase;
+  padding-top: 5px;
+}
+
+.roadmap__title-section-main-part {
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.roadmap__descr-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 30px 13px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.roadmap__descr-section-main {
+  width: 300px;
+}
+
+.roadmap__descr-section-part {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  color: #fff;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.roadmap__descr-section-part-2 {
+  margin-top: 40px;
+  padding-right: 0;
+  margin-bottom: 15px;
+}
+
+.roadmap__descr-section-part-3 {
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.roadmap__descr-section-part-4 {
+  padding-left: 0px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 26px;
+}
+
+.roadmap__descr-section-img {
+  width: 130px;
+  height: 130px;
+}
+
+.roadmap__separator {
+  height: 40px;
+  width: 2px;
+  background-color: #8DFD1B;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.roadmap__our-partners {
+  color: #8DFD1B;
+  text-align: center;
+  font-weight: 400;
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: uppercase;
+  margin-top: 240px;
+}
+
+.logoholder {
+  background-color: #000;
+}
+
+.logoholder--container {
+  padding: 50px 0;
+}
+
+.logoholder__top {
+  margin-bottom: 60px;
+}
+
+.logoholder__logo {
+  margin-right: 95px;
+}
+
+.logoholder__logo-active {
+  margin-right: 0;
+}
+
+.questions {
+  background-color: #000;
+}
+
+.questions--container {
+  padding: 200px 15px 100px 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.questions__title {
+  color: #fff;
+  font-weight: 400;
+  font-family: "Audiowide", cursive;
+  font-size: 38px;
+  line-height: 45px;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.questions__asked {
+  color: #A8A8A8;
+}
+
+.questions__list {
+  background-color: #222222;
+  width: 580px;
+  padding: 24px 31px;
+}
+
+.questions__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.questions__section-title {
+  color: #fff;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.questions__section-descr {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  margin-bottom: 30px;
+}
+
+.questions__section-descr--active {
+  margin-bottom: 0;
+}
+
+.questions__section-square {
+  width: 15px;
+  height: 15px;
+}
+
+.team {
+  background-color: #000;
+}
+
+.team__banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.team__banner-name {
+  color: #fff;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 79px;
+  line-height: 88px;
+  text-transform: uppercase;
+  margin-right: 200px;
+}
+
+.team--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 130px;
+  padding-bottom: 250px;
+}
+
+.team__artist {
+  width: 320px;
+  margin-right: 100px;
+}
+
+.team__artist-img {
+  margin-bottom: 20px;
+}
+
+.team__artist-name {
+  color: #fff;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.team__artist-job-title {
+  color: #8DFD1B;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 12px;
+  margin-bottom: 20px;
+}
+
+.team__artist-contacts {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 30px;
+}
+
+.team__artist-link {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.team__artist-descr {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 19px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+
+.discord {
+  background-color: #000;
+}
+
+.discord--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-bottom: 120px;
+}
+
+.discord__list {
+  padding-top: 150px;
+}
+
+.discord__title {
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "Audiowide", cursive;
+  font-weight: 400;
+  font-size: 51px;
+  line-height: 61px;
+  margin-bottom: 35px;
+}
+
+.discord__span {
+  color: #8DFD1B;
+  padding-right: 200px;
+}
+
+.discord__descr {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-right: 210px;
+  margin-bottom: 35px;
+}
+
+.discord__btn {
+  width: 210px;
+  height: 45px;
+  background-color: #8DFD1B;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  padding-bottom: 6px;
+  -webkit-transition: background-color .2s ease-in-out, border .2s ease-in-out;
+  transition: background-color .2s ease-in-out, border .2s ease-in-out;
+}
+
+.discord__btn:hover {
+  cursor: pointer;
+  background-color: #42006A;
+  color: #FFFFFF;
+}
+
+.discord__btn:active {
+  background-color: #7300bb;
+  color: #FFFFFF;
+}
+
+.footer {
+  background-color: #42006A;
+}
+
+.footer--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+.footer__logo-img {
+  margin-bottom: 70px;
+}
+
+.footer__logo-reserved {
+  color: #fff;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+.footer__nav-item {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+
+.footer__nav-item:last-child {
+  margin-bottom: 0;
+}
+
+.footer__nav-link {
+  text-decoration: none;
+  color: #fff;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.footer__by-item {
+  color: #fff;
+  font-family: "DM Mono", monospace;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  margin-bottom: 30px;
+}
+
+.footer__contacts-link {
+  text-decoration: none;
+  margin-left: 12px;
+}
+/*# sourceMappingURL=main.css.map */
